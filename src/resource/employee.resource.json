@@ -1,0 +1,498 @@
+[
+    {
+        "name": "Dimas Dermawan",
+        "division": "President",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Giovan Christoffel Sihombing",
+        "division": "Vice President",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Christopher Sutandar",
+        "division": "Hardware",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Daniel Niko Mardjaja",
+        "division": "Hardware",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Ida Bagus Ketut Satya Wira Dharma",
+        "division": "Hardware",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Kevin Imanuel Hutagaol",
+        "division": "Hardware",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Muhammad Alif Iqbal",
+        "division": "Hardware",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Raditya Danendra",
+        "division": "Hardware",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Bonifasius Raditya Pandu Hendrianto",
+        "division": "Hardware",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Kamal Makarim Iskandar",
+        "division": "Software",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Nicholas Samosir",
+        "division": "Software",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Javana Muhammad Dzaki",
+        "division": "Software",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Edgrant Henderson Suryajaya",
+        "division": "Software",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Muhammad Billie Elian",
+        "division": "Software",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Christian Hadiwijaya",
+        "division": "Software",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Deandro Najwan Ahmad Syahbanna",
+        "division": "Software",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Benedict Aurelius",
+        "division": "Software",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Kautsar Faradika Faisal",
+        "division": "Software",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Wilman Saragih Sitio",
+        "division": "Software",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Jonathan Frederick Kosasih",
+        "division": "Software",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Naufal Hani Zakwan",
+        "division": "Software",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Wendy Dharmawan",
+        "division": "Training and Development",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Ivan Yuantama Pradipta",
+        "division": "Training and Development",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Andrea Nathania Justendy",
+        "division": "Training and Development",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Gerrardin Nabil Zulhian",
+        "division": "Training and Development",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Giovany Sirait",
+        "division": "Training and Development",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Falah Andhesryo",
+        "division": "Training and Development",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Lavly Rantissa Zunnuraina Rusdi",
+        "division": "Design",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Hafizyah Rayhan Zulikhram ",
+        "division": "Design",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Muhammad Riyan Satrio Wibowo",
+        "division": "Design",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Zhafira Zahra Alfarisy",
+        "division": "Design",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Raihanah Zakiyah Syukri",
+        "division": "Design",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Luthfi Abdillah Wahid",
+        "division": "Design",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Audy Natalie",
+        "division": "Design",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Maharaka Fadhilah",
+        "division": "Design",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Innezahra Aurellia Titani",
+        "division": "Design",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Carissa Tri Alma",
+        "division": "Design",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Timothy Farell Lasmana",
+        "division": "Project Management",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Ryan Safa Tjendana",
+        "division": "Project Management",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Wiellona Darlene Oderia Saragih",
+        "division": "Project Management",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Shasya Nurhaliza Sadira Berty",
+        "division": "Project Management",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Andrea Ika Christi Santoso",
+        "division": "Project Management",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Azka Nabihan",
+        "division": "Project Management",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Muhammad Daffa Rizkyandri ",
+        "division": "Project Management",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Sihombing Giovano Geraldo",
+        "division": "Relation",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Darren Nathanael Boentara",
+        "division": "Relation",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Dwigina Sitti Zahwa",
+        "division": "Relation",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Naira Raissa Hulaemi",
+        "division": "Relation",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Yoel Dwi Miryano",
+        "division": "Relation",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Rafli Adithia ",
+        "division": "Finance and Secretary",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Tara Nur Amalina",
+        "division": "Finance and Secretary",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Aliya Rizqiningrum Salamun",
+        "division": "Finance and Secretary",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Surya Dharmasaputra Soeroso",
+        "division": "Human Resource",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Rufaida Kariemah",
+        "division": "Human Resource",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Muhammad Jibril Adrian",
+        "division": "Human Resource",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Faruq Sami Ramadhan",
+        "division": "Human Resource",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Laura Fawzia Sambowo",
+        "division": "Human Resource",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Emir Fateen Haqqi",
+        "division": "Creatives",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Raihan Muhammad Ihsan",
+        "division": "Creatives",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Siti Amalia Nurfaidah",
+        "division": "Creatives",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Alshandra Aurelya Walangadi",
+        "division": "Creatives",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    },
+    {
+        "name": "Feyza Hasna Shabrina",
+        "division": "Creatives",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "",
+        "linkedIn": ""
+    }
+]
