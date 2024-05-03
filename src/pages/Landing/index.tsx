@@ -1,4 +1,4 @@
-function Landing(){
+function LandingPage(){
     return (
         <div>
             <h1>Landing</h1>
@@ -6,4 +6,4 @@ function Landing(){
     );
 }
 
-export default Landing;
+export default LandingPage;
