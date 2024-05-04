@@ -1,4 +1,4 @@
-class pastProjectSchema {
+class PastProject {
     title: string;
     description: string;
     image: string;
@@ -11,3 +11,5 @@ class pastProjectSchema {
         this.type = type;
     }
 }
+
+export default PastProject;
