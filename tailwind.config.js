@@ -20,7 +20,7 @@ export default {
       },
       fontFamily: {
         poppins : ["Poppins", "sans-serif"],
-        inter : ["Inter", ""]
+        inter: ["Inter", "sans-serif"]
       },
     },
   },
