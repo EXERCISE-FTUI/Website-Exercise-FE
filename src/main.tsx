@@ -7,6 +7,7 @@ import "./index.css"
 import App from "./App"
 import ExTicle from "./pages/ExTicle"
 import Landing from "./pages/Landing"
+import Features from "./pages/Features"
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "/exticle",
         element: <ExTicle />,
+      },
+      {
+        path: "/features",
+        element: <Features />,
       },
     ],
   },
