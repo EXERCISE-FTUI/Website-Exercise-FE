@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Internship Exercise",
+        "date": "October - november 2023",
+        "image": "internship.png",
+        "description": "Our very First Internship Program for Freshmans, we aim  to raise the exposure of our organization from this program. This Internship program consists of Two Team Options which was  Software and Hardware each had their own project and goals set for the program."
+    },
+    {
+        "name": "Grand Launching Exercise 2024",
+        "date": "February 2024",
+        "image": "grandLaunching.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    }
+]
