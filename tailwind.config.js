@@ -15,12 +15,14 @@ export default {
           "gray" : "#BFC8CE",
           "whitegray" : "#D9D9D9",
           "whiteaccent" : "#F5F5F5",
-          "white" : "FAFAFA"
+          "white" : "#FAFAFA"
         }
       },
       fontFamily: {
         poppins : ["Poppins", "sans-serif"],
-        inter : ["Inter", ""]
+        inter : ["Inter", "sans-serif"],
+        rufina : ["Rufina", "serif"],
+        monsterrat : ["Montserrat", "serif"]
       },
     },
   },

@@ -4,7 +4,7 @@
         "division": "Executive",
         "batch": 2024,
         "position": "President",
-        "image": "",
+        "image": "./../../assets/aboutUs/president.png",
         "linkedIn": ""
     },
     {
@@ -12,7 +12,7 @@
         "division": "Executive",
         "batch": 2024,
         "position": "Vice President",
-        "image": "",
+        "image": "./../../assets/aboutUs/vicepresident.png",
         "linkedIn": ""
     },
     {
