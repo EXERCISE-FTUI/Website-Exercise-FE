@@ -1,0 +1,20 @@
+[
+    {
+        "title": "E-Commerce Product Web Scraping",
+        "description": "Build a desktop GUI Application with Python programming language to create a web scraping system based on Selenium. The goal of this project is to gather data for Data Analytics purposes to predict future behavior.",
+        "image": "tokopedia.png",
+        "type": ["Software"]
+    },
+    {
+        "title": "Fintech Automation System",
+        "description": "Unlock Data Insights: Python GUI for Selenium Web Scraping & Predictive Analytics! The goal of this project is to gather data for Data Analytics purposes to predict future behavior",
+        "image": "flip.png",
+        "type": ["Software"]
+    },
+    {
+        "title": "Document Conversion and P12 Signing",
+        "description": "Seamless Conversion & Timestamp Signing Program Try Now! and Transform DOCX to PDF This Program was created with Python, Java, Django, and Spring Integration!",
+        "image": "DocumentConversion.png",
+        "type": ["Software"]
+    }
+]

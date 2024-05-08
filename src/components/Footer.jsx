@@ -5,6 +5,7 @@ import Logo from "./logo/Logo"
 
 import ig from "../assets/footer-icons/ig.png"
 import linked from "../assets/footer-icons/linked.png"
+import wa from "../assets/footer-icons/wa.png"
 
 function Footer(){
     return (
@@ -16,7 +17,7 @@ function Footer(){
                 </div>
 
                 {/* contents */}
-                <div id="footer-text-container" className="pb-6 flex flex-row justify-between">
+                <div id="footer-text-container" className="md:pb-6 pb-1.5 flex flex-row justify-between">
                     {/* column 1 */}
                     <div id="footer-text1" className="hidden w-[30%] flex-col md:flex gap-4"> 
                         <p className="font-light text-justify">
@@ -41,14 +42,12 @@ function Footer(){
                         </div>
                         
                         <div id="footer-text2-bottom" className="flex flex-row gap-12">
-                            <div id="footer-text2-socials" className="flex-col">
+                            <div id="footer-socials" className="flex-col">
                                 <p className="font-bold">Follow Us</p>
-                                <div id="footer-text2-social-container" className="flex flex-row gap-2">
+                                <div id="footer-socials-container" className="flex flex-row gap-2">
                                     <a href="https://www.instagram.com/exercise.ftui/"><img src={ig} className="flex-col object-contain w-10 h-10"></img></a>
                                     <a href="https://www.linkedin.com/company/exercise-ftui/mycompany/"><img src={linked} className="flex-col object-contain w-10 h-10"></img></a>
                                 </div>
-
-                                
                             </div>
 
                             <div id="footer-text2-cp" className="flex-col">
@@ -64,16 +63,32 @@ function Footer(){
                         <input className="rounded-full pl-2 italic h-8 shadow-inner" placeholder="name@example.com">
                         </input>
                     </div>
+
+                    {/* mobile */}
+                    <div id="footer-socials"className="md:hidden flex flex-row mx-auto gap-2">
+                        <a href="https://www.instagram.com/exercise.ftui/"><img src={ig} className="w-10 h-10"></img></a>
+                        <a href="https://www.linkedin.com/company/exercise-ftui/mycompany/"><img src={linked} className="w-10 h-10"></img></a>
+                        <a href=""><img src={wa} className="w-10 h-10 px-1 py-1"></img></a>
+                    </div>
                 </div>
             </div>
             
 
             {/* copyright */}
             <div id="footer-bottom-container" className="
-            bg-exer-gunmetal md:flex gap-4 font-poppins
-            pt-1 pb-1 pl-24 pr-24 font-semibold flex flex-row justify-between">
-                <p>Copyright © 2024. Exercise FTUI</p>
-                <p className="">Powered by React JS</p>
+            bg-exer-gunmetal md:px-24">
+                <div className="md:flex gap-4 font-poppins 
+            pt-1 pb-1 font-semibold flex flex-row justify-between">
+                    <div className="hidden md:flex whitespace-nowrap">
+                        <p className="">Copyright © 2024. Exercise FTUI</p>
+                    </div>
+                    <div className="hidden md:flex justify-end whitespace-nowrap">
+                        <p className="">Powered by React JS</p>
+                    </div>
+                    <div className="ml-auto mr-auto md:hidden w-full whitespace-nowrap">
+                        <p className="text-center">Copyright © 2024. Exercise FTUI</p>
+                    </div>
+                </div>
             </div>
         </footer>
     )
