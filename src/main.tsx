@@ -7,6 +7,7 @@ import "./index.css"
 import App from "./App"
 import ExTiclePage from "./pages/ExTicle"
 import LandingPage from "./pages/Landing"
+import AboutUsPage from "./pages/AboutUs"
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
         path: "/exticle",
         element: <ExTiclePage />,
       },
+      {
+        path:"/aboutUs",
+        element: <AboutUsPage />
+      }
     ],
   },
   {
