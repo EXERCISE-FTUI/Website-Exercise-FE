@@ -63,4 +63,4 @@ function Landing(){
   );
 }
 
-export default LandingPage;
+export default Landing;
