@@ -5,9 +5,10 @@ import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom"
 import "./index.css"
 
 import App from "./App"
-import ExTiclePage from "./pages/ExTicle"
-import LandingPage from "./pages/Landing"
-import AboutUsPage from "./pages/AboutUs"
+import ExTicle from "./pages/ExTicle"
+import Landing from "./pages/Landing"
+import Features from "./pages/Features"
+
 
 const router = createBrowserRouter([
   {
@@ -15,16 +16,16 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/home",
-        element: <LandingPage />,
+        element: <Landing />,
       },
       {
         path: "/exticle",
-        element: <ExTiclePage />,
+        element: <ExTicle />,
       },
       {
-        path:"/aboutUs",
-        element: <AboutUsPage />
-      }
+        path: "/features",
+        element: <Features />,
+      },
     ],
   },
   {
