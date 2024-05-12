@@ -1,5 +1,5 @@
 
-import json from '../resource/employee.resource.json';
+import json from '../aboutUs/employee.resource.json';
 import Employee from './employeeSchema.ts';
 const EmployeeList: Employee[] = [];
 

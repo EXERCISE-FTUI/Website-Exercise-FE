@@ -1,0 +1,14 @@
+[
+    {
+        "title":"URL Shortener",
+        "description":"Streamline your online presence, craft a personalized link that reflects your brand and simplifies your web presence. try now!",
+        "link":"https://link.exerciseftui.com/account/login",
+        "image":"URLShortener.png"
+    },
+    {
+        "title":"Ranking Elektro",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec fringilla nulla. ",
+        "link":"https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+        "image":"RankingElektro.png"
+    }
+]
