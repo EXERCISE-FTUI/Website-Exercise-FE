@@ -1,6 +1,7 @@
 import CheckOurTools from '../../components/CheckOurTools';
 import Hero from './section/hero';
 import OurWorks from './section/OurWorks'
+import Team from './section/Team';
 
 function LandingPage(){
   return (
@@ -13,6 +14,7 @@ function LandingPage(){
         <Hero />
       </div>
       <OurWorks />
+      <Team />
       <CheckOurTools />
     </div>
   );

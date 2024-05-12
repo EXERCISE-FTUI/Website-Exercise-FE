@@ -5,7 +5,7 @@ import Software from "../../../assets/landing/LandingSoftware.png";
 import Creative from "../../../assets/landing/LandingCreative.png";
 import IOT from "../../../assets/landing/LandingIOT.png"; 
 
-const Works: Array<{
+const works: Array<{
   icon: string;
   alt: string;
   title: string;
@@ -39,7 +39,7 @@ const Works: Array<{
 
 export default function CheckOurTools() {
   return(
-    <>
+    <div id="out-works-section">
       <div id="Our-Works-Container" className="
         flex flex-row flex-wrap justify-center
         w-full gap-4"
@@ -53,10 +53,10 @@ export default function CheckOurTools() {
         flex flex-row flex-wrap justify-center
         w-full gap-8 mt-16"
       >
-        {Works.map((work, index) => (
+        {works.map((work, index) => (
           <IconBox key={index} icon={work.icon} alt={work.alt} title={work.title} subtitle={work.subtitle}/>
         ))}
       </div>
-    </>
+    </div>
   )
 }
