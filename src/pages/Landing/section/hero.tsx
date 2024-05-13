@@ -1,4 +1,4 @@
-import GioStare from '/src/assets/landing/GioStare.png';
+import VR from '/src/assets/landing/LandingVR.png';
 
 export default function Hero() {
   return(
@@ -13,7 +13,7 @@ export default function Hero() {
                 h-1/2 w-full 
               relative
             ">
-        <img src={GioStare} alt="GioStare" className="
+        <img src={VR} alt="GioStare" className="
                 w-full h-full object-contain z-0
                 absolute drop-shadow-lg
                 hover:scale-110 duration-1000 transition-all

@@ -1,5 +1,5 @@
 import CheckOurTools from '../../components/CheckOurTools';
-import Hero from './section/hero';
+import Hero from './section/Hero';
 import OurWorks from './section/OurWorks'
 import Team from './section/Team';
 
