@@ -63,7 +63,12 @@ export default function Team() {
           <TeamBox key={index} icon={team.icon} alt={team.alt} title={team.title} subtitle={team.subtitle} />
         ))}
       </div>
-      <h1 className='text-white absolute right-0 top1/2 mb-8 animate-pulse text-[8rem] drop-shadow-xl hover:opacity-0 opacity-30 z-10 hidden md:block '>{'>'}</h1>
+      <h1 className='
+        text-white absolute right-0 mb-4 mr-2 
+        animate-pulse text-[4rem] drop-shadow-xl 
+        hover:opacity-0 opacity-50 z-10 hidden md:block '>
+        {'⮞'}
+      </h1>
     </div>
   );
 }
