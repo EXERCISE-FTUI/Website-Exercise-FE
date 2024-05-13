@@ -8,6 +8,7 @@ import App from "./App"
 import ExTicle from "./pages/ExTicle"
 import Landing from "./pages/Landing"
 import Features from "./pages/Features"
+import DisplayArticle from "./pages/ExTicle/displayArticle"
 
 
 const router = createBrowserRouter([
@@ -16,11 +17,15 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/home",
-        element: <LandingPage />,
+        element: <Landing />,
       },
       {
         path: "/exticle",
-        element: <ExTiclePage />,
+        element: <ExTicle />,
+      },
+      {
+        path: "exticle/:articleFile",
+        element: <DisplayArticle />,
       },
       {
         path: "/features",
