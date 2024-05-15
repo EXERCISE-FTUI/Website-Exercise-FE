@@ -9,6 +9,7 @@ import ExTicle from "./pages/ExTicle"
 import Landing from "./pages/Landing"
 import Features from "./pages/Features"
 import AboutUs from "./pages/AboutUs";
+import DisplayArticle from "./pages/ExTicle/displayArticle"
 
 
 const router = createBrowserRouter([
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "/exticle",
         element: <ExTicle />,
+      },
+      {
+        path: "exticle/:articleFile",
+        element: <DisplayArticle />,
       },
       {
         path: "/features",
