@@ -17,11 +17,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/home",
-        element: <LandingPage />,
+        element: <Landing />,
       },
       {
         path: "/exticle",
-        element: <ExTiclePage />,
+        element: <ExTicle />,
       },
       {
         path: "/features",

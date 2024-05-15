@@ -1,6 +1,6 @@
 
 import json from '../aboutUs/employee.resource.json';
-import Employee from './employeeSchema.ts';
+import Employee from './employeeSchema';
 const EmployeeList: Employee[] = [];
 
 for (var key in json) {
