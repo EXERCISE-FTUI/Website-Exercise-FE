@@ -1,17 +1,15 @@
-class Exticle{
+export class Exticle {
     title: string;
-    description: string;
     image: string;
     author: string;
-    writtenOn: string;
+    writtenOn: Date;  
+    text: string;
     
-    constructor(title: string, description: string, image: string, author: string, writtenOn: string) {
+    constructor(title: string, image: string, author: string, writtenOn: Date, text: string) {
         this.title = title;
-        this.description = description;
         this.image = image;
         this.author = author;
         this.writtenOn = writtenOn;
+        this.text = text;
     }
 }
-
-export default Exticle;

@@ -3,7 +3,7 @@ import "./../../index.css";
 import Searchbarimg from "./../../assets/features/searchbarexer.png";
 import Rankdte from "./../../assets/features/rankdte.png";
 
-function App() {
+function Features() {
 
   //mapping features
 
@@ -89,4 +89,4 @@ function App() {
   );
 }
 
-export default App;
+export default Features;
