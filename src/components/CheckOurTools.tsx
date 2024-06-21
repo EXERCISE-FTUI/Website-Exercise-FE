@@ -3,7 +3,7 @@ import Searchbarimg from "/src/assets/features/searchbarexer.png";
 
 export default function CheckOurTools() {
   return (
-    <section className='font-poppins text-white bg-gradient-to-t w-full h-[1026px] px-[145px] items-center flex gap-[105px]'>
+    <section className='font-poppins scrollbar-hide text-white bg-gradient-to-t w-full pb-[50px] pt-[200px] px-[145px] items-center flex gap-[105px]  overflow-x-scroll'>
       <div className='flex flex-col gap-0 font-inter leading-none'>
         <div className='w-fit h-fit bg-[#FFFFFF] text-exer-gunmetal font-extrabold'>
           <h1 className='text-[82px] p-0 leading-none'> CHECK </h1>

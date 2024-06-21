@@ -1,35 +1,33 @@
 import RecentEvents from "../../../assets/landing/RecentEvents.png";
+import R1 from "../../../assets/landing/RecentEventsIntern.png";
+import R2 from "../../../assets/landing/RecentEvents2.png";
+import R3 from "../../../assets/landing/RecentEvents3.png";
 import { useEffect, useState } from "react";
 
 const events = [
   {
-    title: "Event 1",
-    img: RecentEvents,
-    date: "12/12/2021",
+    title: "Internship Exercise",
+    img: R1,
+    date: "October - November 2023 ",
   },
   {
-    title: "Event 2",
-    img: RecentEvents,
-    date: "12/12/2021",
+    title: "Grand Launching Exercise 2024",
+    img: R2,
+    date: "February 2024",
   },
   {
     title: "Event 3",
-    img: RecentEvents,
+    img: R3,
     date: "12/12/2021",
   },
   {
     title: "Event 4",
-    img: RecentEvents,
+    img: R3,
     date: "12/12/2021",
   },
   {
     title: "Event 5",
-    img: RecentEvents,
-    date: "12/12/2021",
-  },
-  {
-    title: "Event 6",
-    img: RecentEvents,
+    img: R3,
     date: "12/12/2021",
   },
 ];
@@ -46,9 +44,9 @@ export default function RecentEventsSection() {
     setHoveredCard: any;
   }) {
     return (
-      <div className='w-[10%] hover:w-[30%] mx-1 h-[20rem] bg-white rounded-[3rem] overflow-hidden shadow-xl flex flex-col transition-all duration-300 ease-in-out group delay-100 relative'>
+      <div className='w-[10%] hover:w-[30%] mx-1 h-[20rem] bg-white rounded-[3rem] overflow-hidden shadow-xl flex flex-col transition-all duration-500 ease-in-out group delay-100 relative'>
         <img
-          src='https://picsum.photos/id/237/200/300'
+          src={props.img}
           alt='Event'
           className='absolute top-0 left-0 w-full h-full object-cover object-left'
         />
