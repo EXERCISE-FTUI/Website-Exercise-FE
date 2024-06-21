@@ -23,4 +23,4 @@ function LandingPage(){
   );
 }
 
-export default Landing;
+export default LandingPage;
