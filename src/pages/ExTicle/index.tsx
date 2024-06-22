@@ -30,7 +30,7 @@ function ExTicle() {
           </div>
           <div className="mr-[15%] flex flex-row mt-[10px]">
             <div className=' bg-white h-[35px] md:h-[65px] md:rounded-r-2xl rounded-r-xl flex-1' style={{ boxShadow: 'inset 0 0vh 0vh rgba(0, 0, 0, 0.25), inset 0 1vh 1vh rgba(0, 0, 0, 0.4)' }}/>
-            <div className=' bg-[#1A323E] shadow-black shadow-sm h-[35px] md:h-[65px] md:rounded-4xl rounded-3xl w-[130px] md:w-[210px] flex flex-row p-[8px] md:p-[10px] mx-[1%] hover:bg-[#527182] transition-colors'>
+            <div className=' bg-[#1A323E] shadow-black shadow-sm h-[35px] md:h-[65px] md:rounded-4xl rounded-3xl w-[130px] md:w-[210px] flex flex-row p-[8px] md:p-[10px] mx-[1%] hover:bg-[#527182] transition-colors hover:cursor-pointer'>
               <div className='flex flex-col'>
                 <h2 className="font-poppins text-white text-xs md:text-lg font-bold whitespace-nowrap overflow-hidden">Fresh Articles</h2>
                 <p className="font-poppins text-white hidden md:block md:text-sm whitespace-nowrap overflow-hidden">scroll down below...</p>

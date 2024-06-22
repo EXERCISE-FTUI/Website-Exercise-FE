@@ -46,7 +46,7 @@ function ExticleHighlight(): JSX.Element {
     <div className="flex flex-col">
       <div className='flex flex-row mt-10'>
         <h1 className="font-poppins skew-x-[-5deg] text-2xl font-semibold text-white">Latest Articles...</h1>
-        <div className='hover ml-auto flex flex-row'>
+        <div className='hover ml-auto flex flex-row hover:cursor-pointer hover:scale-105 transition-all'>
           <h1 className="font-poppins text-2xl text-white">See All</h1>
           <img src={arrow} alt="arrow" className="h-[24px] my-auto ml-2 -rotate-90"/>
         </div>
@@ -81,7 +81,7 @@ function ExticleHighlight(): JSX.Element {
           `}
         </style>
         {showedlist.map((exticle, index) => (
-          <div className='bg-[#527182] p-2 w-[300px] rounded-lg m-2 transition-all transform hover:scale-[104%]' 
+          <div className='bg-[#527182] p-2 w-[300px] rounded-lg m-2 transition-all transform hover:scale-[104%] shadow-black shadow-md hover:shadow-none' 
             key={index} 
             style={{ flex: '0 0 auto' }}
             onClick={() => handleArticleClick(exticle.text)}>

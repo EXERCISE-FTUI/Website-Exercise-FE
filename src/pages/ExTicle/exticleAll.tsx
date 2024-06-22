@@ -15,10 +15,10 @@ function ExticleAll(): JSX.Element {
 
   return (
     <div className="flex flex-col">
-      <h1 className="font-poppins skew-x-[-5deg] text-2xl font-semibold text-white mt-10">All Articles</h1>
-        <div className='flex flex-wrap justify-start py-2'>
+      <h1 className="font-poppins skew-x-[-5deg] text-2xl font-semibold text-white mt-10 mb-2">All Articles</h1>
+        <div className='flex flex-wrap justify-between'>
             {ExticleList.map((exticle, index) => (
-            <div className='bg-[#527182] p-2 rounded-lg transition-all transform hover:scale-105 mr-auto mb-5' 
+            <div className='bg-[#527182] p-2 rounded-lg transition-all transform hover:scale-105 mb-5 sm:mx-0 mx-auto hover:cursor-pointer shadow-md hover:shadow-none' 
                 key={index} 
                 style={{
                 width: `${fixedWidth}px`, // Fixed width for each article

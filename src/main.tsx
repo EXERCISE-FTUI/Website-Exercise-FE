@@ -7,7 +7,7 @@ import "./index.css"
 import App from "./App"
 import ExTiclePage from "./pages/ExTicle"
 import LandingPage from "./pages/Landing"
-import Features from "./pages/Features"
+import FeaturesPage from "./pages/Features"
 import DisplayArticle from "./pages/ExTicle/displayArticle"
 
 
@@ -17,11 +17,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/home",
-        element: <Landing />,
+        element: <LandingPage />,
       },
       {
         path: "/exticle",
-        element: <ExTicle />,
+        element: <ExTiclePage />,
       },
       {
         path: "exticle/:articleFile",
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/features",
-        element: <Features />,
+        element: <FeaturesPage />,
       },
     ],
   },
