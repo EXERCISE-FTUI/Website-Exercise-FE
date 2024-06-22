@@ -42,9 +42,9 @@ export default function CheckOurTools() {
     <div id="out-works-section">
       <div id="Our-Works-Container" className="
         flex flex-row flex-wrap justify-center
-        w-full gap-4"
+        w-full gap-4 my-12"
       >
-        <img src={Our} alt="Our" className=" object-contain h-16"/>
+        <img src={Our} alt="Our" className=" object-contain h-12 md:h-16"/>
         {/* <img src={Works} alt="Works" className=" object-contain h-16"/> */}
 
       </div>

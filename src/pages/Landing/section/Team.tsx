@@ -115,7 +115,7 @@ export default function Team() {
         <img
           src={MeetOurTeam}
           alt='Meet Our Team'
-          className=' w-[1000px] pb-12 object-contain'
+          className=' md:w-[600px] w-[200px] pb-[4rem] md:pb-[12rem] object-contain'
         />
       </div>
 
@@ -123,6 +123,7 @@ export default function Team() {
         id='team-boxes'
         className='
         flex gap-8 overflow-x-auto scrollbar-hide hover:scale-[101%] transition-all duration-300 ease-in-out overflow-y-visible
+        w-full md:w-[80%] h-[400px] md:h-[500px] mt-4 md:mt-0
       '>
         {team.map((team, index) => (
           <TeamBox
@@ -139,7 +140,13 @@ export default function Team() {
         className='
         text-white absolute right-0 mb-4 mr-2 
         animate-pulse text-[4rem] drop-shadow-xl 
-        hover:opacity-0 opacity-50 z-10 hidden md:block '>
+        hover:opacity-0 opacity-50 z-10 cursor-pointer'
+        onClick={() => {
+          const teamBoxes = document.getElementById("team-boxes");
+          if (teamBoxes) {
+            teamBoxes.scrollLeft += 300;
+          }
+        }}>
         {"⮞"}
       </h1>
     </div>

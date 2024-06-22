@@ -44,7 +44,7 @@ export default function RecentEventsSection() {
     setHoveredCard: any;
   }) {
     return (
-      <div className='w-[10%] hover:w-[30%] mx-1 h-[20rem] bg-white rounded-[3rem] overflow-hidden shadow-xl flex flex-col transition-all duration-500 ease-in-out group delay-100 relative'>
+      <div className='w-[10%] min-w-[200px] hover:w-[30%] hover:min-w-[300px] mx-1 h-[20rem] bg-white rounded-[3rem] overflow-hidden shadow-xl flex flex-col transition-all duration-500 ease-in-out group delay-100 relative'>
         <img
           src={props.img}
           alt='Event'
@@ -69,10 +69,10 @@ export default function RecentEventsSection() {
       <img
         src={RecentEvents}
         alt='Recent Events'
-        className='w-[400px] mx-24 my-12'
+        className='md:w-[400px] w-[200px] md:mx-24 mx-12 my-12'
       />
       <div className='flex w-screen justify-center'>
-        <div className='flex justify-center items-center mx-24 w-full'>
+        <div className='flex justify-center items-center mx-24 w-full flex-wrap gap-4'>
           {events.map((event, index) => (
             <Card
               title={event.title}
