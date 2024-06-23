@@ -168,6 +168,14 @@
         "linkedIn": ""
     },
     {
+        "name": "Harris Bimo",
+        "division": "Software",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "harris.png",
+        "linkedIn": ""
+    },
+    {
         "name": "Wendy Dharmawan",
         "division": "Training and Development",
         "batch": 2024,
@@ -304,7 +312,7 @@
         "linkedIn": ""
     },
     {
-        "name": "Ryan Safa Tjendana",
+        "name": "Ryan Safa T.",
         "division": "Project Management",
         "batch": 2024,
         "position": "Co-director",
@@ -464,7 +472,7 @@
         "linkedIn": ""
     },
     {
-        "name": "Raihan Muhammad Ihsan",
+        "name": "Raihan M. Ihsan",
         "division": "Creatives",
         "batch": 2024,
         "position": "Co-director",

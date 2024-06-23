@@ -16,6 +16,7 @@ export default {
           "whitegray" : "#D9D9D9",
           "whiteaccent" : "#F5F5F5",
           "white" : "#FAFAFA",
+          "white2" : '#FFFFFF',
           "grayaccentblue" : "#889DA8"
         }
       },

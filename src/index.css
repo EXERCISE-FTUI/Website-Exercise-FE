@@ -4,6 +4,9 @@
 @tailwind utilities;
 
 @layer base {
+  * {
+    scroll-behavior : smooth;
+  }
   .font-outline-1 {
     -webkit-text-stroke: 1.3px white;
   }
@@ -17,10 +20,20 @@
 
 .hexa {
   display: inline-block;
-  filter: url('#goo');
-  color: #1C465C;
-  width: 65%;
+  filter: url("#goo");
+  color: #1c465c;
+  width: 78%;
   position: absolute;
+  @apply drop-shadow-lg;
+}
+
+.hexb {
+  display: inline-block;
+  filter: url("#goo");
+  color: #527182;
+  width: 78%;
+  position: absolute;
+  @apply drop-shadow-lg;
 }
 
 .hexa::before {
@@ -31,22 +44,54 @@
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 
-.hexb {
+.hexb::before {
+  content: "";
+  display: block;
+  background: currentColor;
+  padding-top: 86.6%;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+@media (min-width: 768px) {
+  .hexa {
     display: inline-block;
-    filter: url('#goo');
+    filter: url("#goo");
+    color: #1c465c;
+    width: 75%;
+    position: absolute;
+    @apply drop-shadow-lg;
+  }
+
+  .hexb {
+    display: inline-block;
+    filter: url("#goo");
+    color: #527182;
+    width: 75%;
+    position: absolute;
+    @apply drop-shadow-lg;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hexa {
+    display: inline-block;
+    filter: url("#goo");
+    color: #1c465c;
+    width: 65%;
+    position: absolute;
+    @apply drop-shadow-lg;
+  }
+
+  .hexb {
+    display: inline-block;
+    filter: url("#goo");
     color: #527182;
     width: 65%;
     position: absolute;
-}
-  
-.hexb::before {
-    content: "";
-    display: block;
-    background: currentColor;
-    padding-top: 86.6%;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    @apply drop-shadow-lg;
+  }
 }
 
 body {
-    background: #0D2734;
+  background: #0d2734;
 }
