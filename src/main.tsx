@@ -5,9 +5,9 @@ import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom"
 import "./index.css"
 
 import App from "./App"
-import ExTicle from "./pages/ExTicle"
-import Landing from "./pages/Landing"
-import Features from "./pages/Features"
+import ExTiclePage from "./pages/ExTicle"
+import LandingPage from "./pages/Landing"
+import FeaturesPage from "./pages/Features"
 import DisplayArticle from "./pages/ExTicle/displayArticle"
 
 
@@ -17,11 +17,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/home",
-        element: <Landing />,
+        element: <LandingPage />,
       },
       {
         path: "/exticle",
-        element: <ExTicle />,
+        element: <ExTiclePage />,
       },
       {
         path: "exticle/:articleFile",
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/features",
-        element: <Features />,
+        element: <FeaturesPage />,
       },
     ],
   },
