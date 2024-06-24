@@ -43,7 +43,7 @@ function NavBar(){
                     <button className="pl-4 pt-4" onClick={toggleBurgerMenu}>
                         <Close />
                     </button>
-                    <div id="navbar-lists" className="text-exer-whiteaccent font-inter text-opacity-70 pt-2 gap-4">
+                    <div id="navbar-lists" className="text-exer-whiteaccent font-inter text-opacity-70 pt-4 gap-4">
                         <ListsBurger
                         lists={lists}
                         />

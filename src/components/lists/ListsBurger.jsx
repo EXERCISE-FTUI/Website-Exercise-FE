@@ -11,7 +11,7 @@ function ListsBurger({ lists = [""], style = "", ...props }) {
         className={`text-lg relative flex pl-8 h-10 items-center hover:bg-exer-white hover:text-exer-charcoal ${
             location.pathname === `/${list.toLowerCase().replace(" ", "-")}`
             ? "bg-exer-white text-exer-charcoal"
-            : "hover:bg-exer-white hover:text-exer-charcoal"
+            : "hover:bg-exer-whitegray hover:text-exer-charcoal"
         }${style}`}
         onClick={props.onClick}
         >
