@@ -44,7 +44,7 @@ function Features() {
           </div>
           <div className="flex-[45%] text-left">
             <div className="w-full lg:h-full md:h-full mobsm:h-[400px] flex md:items-start mobsm:justify-center lg:items-start mobsm:items-center ">
-              <img src={Hammer} className="flex lg:-ml-[20px] md:-ml-[50px] mobsm:ml-[25px] -mt-[150px] lg:translate-y-0 mobsm:translate-y-[150px] md:translate-y-0 max-h-[500px] lg:scale-100 md:scale-[70%] mobsm:scale-90 sm:scale-[130%] mobsm:overflow-visible max-w-[500px] object-fill drop-shadow-2xl md:-translate-x-20 " />
+              <img src={Hammer} className="flex lg:-ml-[20px] md:-ml-[50px] mobsm:ml-[25px] -mt-[150px] lg:translate-y-0 mobsm:translate-y-[150px] md:translate-y-0 max-h-[500px] lg:scale-100 md:scale-[70%] mobsm:scale-90 sm:scale-[130%] mobsm:overflow-visible max-w-[500px] object-fill drop-shadow-2xl lg:translate-x-0 md:-translate-x-20 " />
             </div>
             <div className="flex flex-row items-center text-exer-white">
               <div className="flex items-center w-[420px] lg:-mt-[200px] md:-mt-[250px] h-full leading-none">
