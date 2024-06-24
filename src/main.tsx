@@ -5,9 +5,11 @@ import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom"
 import "./index.css"
 
 import App from "./App"
+
 import ExTiclePage from "./pages/ExTicle"
 import LandingPage from "./pages/Landing"
 import FeaturesPage from "./pages/Features"
+import AboutUsPage from "./pages/AboutUs"
 import DisplayArticle from "./pages/ExTicle/displayArticle"
 
 
@@ -30,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/features",
         element: <FeaturesPage />,
+      },
+      {
+        path: "/about",
+        element: <AboutUsPage/>,
       },
     ],
   },
