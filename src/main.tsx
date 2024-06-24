@@ -5,10 +5,10 @@ import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom"
 import "./index.css"
 
 import App from "./App"
-import ExTicle from "./pages/ExTicle"
-import Landing from "./pages/Landing"
+import ExTiclePage from "./pages/ExTicle"
+import LandingPage from "./pages/Landing"
 import Features from "./pages/Features"
-
+import PastProject from "./pages/PastProject"
 
 const router = createBrowserRouter([
   {
@@ -25,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/features",
         element: <Features />,
+      },
+      {
+        path: "/past-project",
+        element: <PastProject />,
       },
     ],
   },
