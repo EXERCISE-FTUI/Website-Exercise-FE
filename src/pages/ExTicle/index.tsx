@@ -12,9 +12,9 @@ function ExTicle() {
     }
   };
   return (
-    <div className="my-11 mx-3 md:mx-[80px]">
+    <div className="mx-3 md:mx-[80px]">
       <div className='flex flex-row'>
-        <div className="bg-[#527182] h-[41px] md:h-[76px] w-[110px] md:w-[230px] rounded-t-[20px] md:rounded-t-[40px]" />
+        <div className="bg-[#527182] h-[41px] md:h-[76px] w-[110px] md:w-[230px] rounded-t-[20px] md:rounded-t-[40px] mt-16" />
         <img src={dots} alt="dots" className="ml-auto md:h-[70px] h-[40px] mt-auto" />
       </div>
       <div className="pt-[20px] px-[30px] md:pt-[40px] md:px-[63px] bg-[#527182] rounded-b-xl rounded-tr-xl md:mt-[-30px] mt-[-20px]" >

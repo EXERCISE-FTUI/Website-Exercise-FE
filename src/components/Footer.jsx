@@ -6,8 +6,7 @@ import Logo from "./logo/Logo"
 import ig from "../assets/footer-icons/ig.png"
 import linked from "../assets/footer-icons/linked.png"
 import wa from "../assets/footer-icons/wa.png"
-
-function Footer(){
+function Footer() {
     return (
         <footer id="footer" className="bg-exer-charcoal text-white">
             <div id="footer-top-container" className="pl-24 pr-24 font-poppins">
@@ -94,4 +93,4 @@ function Footer(){
     )
 }
 
-export default Footer
+export default Footer;
