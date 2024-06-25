@@ -1,18 +1,37 @@
-import Intership_Events from "./../../assets/events/Internship_Event.png";
-import GL_Event from "./../../assets/events/GL_Event.png";
-
-
 [
     {
-        "title event": "Internship Exercise",
+        "id": 1,
+        "title": "Internship Exercise",
         "date": "October - November 2023",
-        "Description": "Our very First Internship Program for Freshmans, we aim  to raise the exposure of our organization from this program. This Internship program consists of Two Team Options which was  Software and Hardware each had their own project and goals set for the program.",
-        "image": "../assets/events/Intership_Event.png"
+        "description": "Our very First Internship Program for Freshmans, we aim  to raise the exposure of our organization from this program. This Internship program consists of Two Team Options which was  Software and Hardware each had their own project and goals set for the program.",
+        "image": "internship.png"
     },
     {
-        "title event": "Another Event",
-        "date": "December 2023",
-        "Description": "Description of another event",
-        "image": "../assets/events/Another_Event.png"
+        "id": 2,
+        "title": "Grand Launching Exercise 2024",
+        "date": "February 2024",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+        "image": "grandLaunching.png"
+    },
+    {
+        "id": 3,
+        "title": "Grand Launching Exercise 2024",
+        "date": "February 2024",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+        "image": "internship.png"
+    },
+    {
+        "id": 4,
+        "title": "Grand Launching Exercise 2024",
+        "date": "February 2024",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+        "image": "internship.png"
+    },
+    {
+        "id": 5,
+        "title": "Internship Exercise",
+        "date": "October - November 2023",
+        "description": "Our very First Internship Program for Freshmans, we aim  to raise the exposure of our organization from this program. This Internship program consists of Two Team Options which was  Software and Hardware each had their own project and goals set for the program.",
+        "image": "internship.png"
     }
 ]

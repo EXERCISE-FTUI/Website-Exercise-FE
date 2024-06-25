@@ -1,6 +1,6 @@
 import GioStare from '../../assets/landing/GioStare.png';
 
-function Landing(){
+function LandingPage(){
   return (
     <div id="landing-background" className="
       w-dvw h-dvh
