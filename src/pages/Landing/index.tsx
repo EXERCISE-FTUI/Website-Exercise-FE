@@ -2,6 +2,7 @@ import CheckOurTools from '../../components/CheckOurTools';
 import Hero from './section/hero';
 import OurWorks from './section/OurWorks'
 import RecentEventsSection from './section/RecentEvents';
+import ExticleHighlight from '../../components/exticleHighlight';
 import Team from './section/Team';
 
 function LandingPage(){
@@ -17,25 +18,10 @@ function LandingPage(){
         <Hero />
       </div>
       <OurWorks />
-      <br />
-      <br />
-      <br />
       <Team />
-      <br />
-      <br />
-      <br />
       <CheckOurTools />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <RecentEventsSection />
-      <br />
-      <br />
-      <br />
-      <br />
+      <ExticleHighlight />
     </div>
   );
 }

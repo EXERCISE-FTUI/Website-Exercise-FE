@@ -1,7 +1,7 @@
 import React, { useRef, useState, MouseEvent } from 'react';
-import arrow from '../../assets/exticle/arrow.png';
-import { useImages } from '../../assets/imageLoader';
-import ExticleList from '../../assets/exticle';
+import arrow from '../assets/exticle/arrow.png';
+import { useImages } from '../assets/imageLoader';
+import ExticleList from '../assets/exticle';
 import { useNavigate } from 'react-router-dom';
 
 
@@ -43,11 +43,11 @@ function ExticleHighlight(): JSX.Element {
   };
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col p-10">
       <div className='flex flex-row mt-10'>
         <h1 className="font-poppins skew-x-[-5deg] text-2xl font-semibold text-white">Latest Articles...</h1>
         <div className='hover ml-auto flex flex-row hover:cursor-pointer hover:scale-105 transition-all'>
-          <h1 className="font-poppins text-2xl text-white">See All</h1>
+          <a href='/exticle/' className="font-poppins text-2xl text-white" >See All</a>
           <img src={arrow} alt="arrow" className="h-[24px] my-auto ml-2 -rotate-90"/>
         </div>
       </div>

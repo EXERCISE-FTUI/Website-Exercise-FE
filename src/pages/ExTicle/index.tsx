@@ -1,7 +1,6 @@
 import React, { useRef, RefObject} from 'react';
 import dots from '../../assets/exticle/dots.png';
 import arrow from '../../assets/exticle/arrow.png';
-import ExticleHighlight from './exticleHighlight';
 import ExticleAll from './exticleAll';
 
 function ExTicle() {
@@ -30,8 +29,8 @@ function ExTicle() {
             </div>
             <div className="flex-col flex-1 mt-[2.7%] h-max">
               <div className="ml-[2%] bg-white h-[35px] md:h-[65px] md:rounded-l-2xl rounded-l-xl" style={{ boxShadow: 'inset 0 0vh 0vh rgba(0, 0, 0, 0.25), inset 0 1vh 1vh rgba(0, 0, 0, 0.4)' }} />
-              <div className="mt-[10px] ml-[6%] bg-white h-[35px]</div> md:h-[65px] md:rounded-l-2xl rounded-l-xl" style={{ boxShadow: 'inset 0 0vh 0vh rgba(0, 0, 0, 0.25), inset 0 1vh 1vh rgba(0, 0, 0, 0.4)' }} />
-              <div className="mt-[10px] ml-[10%] bg-white h-[35px] md:h-[65px] md:rounded-l-2xl rounded-l-xl" style={{ boxShadow: 'inset 0 0vh 0vh rgba(0, 0, 0, 0.25), inset 0 1vh 1vh rgba(0, 0, 0, 0.4)' }} />
+              <div className="mt-[7px] ml-[6%] bg-white h-[35px] md:h-[65px] md:rounded-l-2xl rounded-l-xl" style={{ boxShadow: 'inset 0 0vh 0vh rgba(0, 0, 0, 0.25), inset 0 1vh 1vh rgba(0, 0, 0, 0.4)' }} />
+              <div className="mt-[7px] ml-[10%] bg-white h-[35px] md:h-[65px] md:rounded-l-2xl rounded-l-xl" style={{ boxShadow: 'inset 0 0vh 0vh rgba(0, 0, 0, 0.25), inset 0 1vh 1vh rgba(0, 0, 0, 0.4)' }} />
             </div>
           </div>
           <div className="mr-[15%] flex flex-row mt-[10px]">
@@ -47,11 +46,10 @@ function ExTicle() {
           </div>
           <div className="mr-[30%] flex flex-row mt-[10px]">
             <div className=' bg-white h-[15px] md:h-[30px] md:rounded-tr-2xl rounded-tr-xl flex-1 rounded-bl-xl' style={{ boxShadow: 'inset 0 0vh 0vh rgba(0, 0, 0, 0.25), inset 0 1vh 1vh rgba(0, 0, 0, 0.4)' }} />
-            <div className=' bg-white h-[15px] md:h-[30px] ml-[2%] md:rounded-t-2xl r</div>ounded-t-xl flex-[4] ' style={{ boxShadow: 'inset 0 0vh 0vh rgba(0, 0, 0, 0.25), inset 0 1vh 1vh rgba(0, 0, 0, 0.4)' }} />
+            <div className=' bg-white h-[15px] md:h-[30px] ml-[2%] rounded-t-2xl r</div>ounded-t-xl flex-[4] ' style={{ boxShadow: 'inset 0 0vh 0vh rgba(0, 0, 0, 0.25), inset 0 1vh 1vh rgba(0, 0, 0, 0.4)' }} />
           </div>
         </div>
       </div>
-      <ExticleHighlight />
       <div ref={exticleAllRef}>
         <ExticleAll />
       </div>

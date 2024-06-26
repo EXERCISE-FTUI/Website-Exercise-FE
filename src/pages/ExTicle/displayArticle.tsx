@@ -57,11 +57,11 @@ customRenderer.heading = function (text, level) {
 };
 
 customRenderer.paragraph = function (text) {
-    return `<p style="color: white; margin-top: 10px; margin-bottom: 10px; font-size: 18px;">${text}</p>`;
+    return `<p style="color: white; margin-top: 20px; margin-bottom: 10px; font-size: 18px; text-align: justify;">${text}</p>`;
 };
 
 customRenderer.image = function (href, title, text) {
-    return `<img src="${href}" alt="${text}" title="${title}" style="max-height: 1000px; width: auto; display: block; margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 10px; border-radius: 10px; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);">`;
+    return `<img src="${href}" alt="${text}" title="${title}" style="max-height: 500px; width: auto; display: block; margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 10px; border-radius: 10px; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);">`;
 };
 
 customRenderer.list = function (body, ordered) {
