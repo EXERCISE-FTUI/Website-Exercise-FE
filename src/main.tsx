@@ -2,17 +2,16 @@ import React from "react"
 import ReactDOM from "react-dom/client"
 import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom"
 
-import "./index.css"
 
 import App from "./App"
+import "./index.css"
 
 import ExTiclePage from "./pages/ExTicle"
 import LandingPage from "./pages/Landing"
 import FeaturesPage from "./pages/Features"
 import AboutUsPage from "./pages/AboutUs"
 import DisplayArticle from "./pages/ExTicle/displayArticle"
-
-
+import PastProjectPage from "./pages/PastProject"
 const router = createBrowserRouter([
   {
     element: <App />,
@@ -36,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/about-us",
         element: <AboutUsPage/>,
+      },
+      {
+        path: "/past-projects",
+        element: <PastProjectPage/>,
       },
     ],
   },

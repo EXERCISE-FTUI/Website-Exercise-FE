@@ -1,6 +1,6 @@
 import Tool from './toolSchema';
 import json from './tool.resource.json';
-var ToolList : Tool[] = [];
+const ToolList : Tool[] = [];
 
 for(var key in json){
     if(json.hasOwnProperty(key)){
