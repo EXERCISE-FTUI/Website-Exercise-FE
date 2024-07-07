@@ -4,7 +4,7 @@ import ToolList from "../assets/tool";
 export default function CheckOurTools() {
   const images = useImages("./tool/images", ToolList);
   return (
-    <section id="Tools" className="w-full h-full lg:h-[830px] sm:h-[1400px] md:h-[1500px] m-auto">
+    <section id="Tools" className="w-full h-auto m-auto">
       <section className="font-poppins text-white lg:w-full px-[20px] lg:px-[133px] sm:px-[180px] justify-center items-center flex flex-col lg:flex-row lg:gap-[36px] md:gap-[20.7px] mobsm:px-[80px] mobsm:mb-[200px] ">
         <div className="w-full max-w-[394px] flex flex-col gap-0 font-inter leading-none lg:scale-100 mobsm:scale-[80px] sm:scale-[70%] md:scale-[70%] md:items-start mobsm:items-center mobsm:-ml-[20px] md:ml-[1px] lg:-mt-[75px] sm:mt-10">
           <div className="w-fit h-fit bg-[#FFFFFF] text-exer-gunmetal font-extrabold">
@@ -24,7 +24,7 @@ export default function CheckOurTools() {
             {ToolList.map((tool, index) => (
               <div key={index}>
                 <a href={tool.link}>
-                  <div className="w-full md:w-[345.3px] md:h-[432.56px] bg-white rounded-[40px] md:overflow-hidden shadow-xl flex flex-col hover:scale-105 duration-300 origin-top-left overflow-x-auto lg:mx-0 lg:mb-0 mobsm:mb-10 md:mx-5">
+                  <div className="w-[345.3px]  md:h-[432.56px] bg-white rounded-[40px] md:overflow-hidden shadow-xl flex flex-col hover:scale-105 duration-300 origin-top-left overflow-x-auto lg:mx-0 lg:mb-0 mobsm:mb-10 md:mx-5">
 
                     <img
                       src={images[tool.image] || ''}

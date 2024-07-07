@@ -4,6 +4,7 @@ import OurWorks from './section/OurWorks'
 import RecentEventsSection from './section/RecentEvents';
 import ExticleHighlight from '../../components/exticleHighlight';
 import Team from './section/Team';
+import Testimony from './components/Testimony'
 
 function LandingPage(){
   return (
@@ -21,7 +22,9 @@ function LandingPage(){
       <Team />
       <CheckOurTools />
       <RecentEventsSection />
+      <Testimony />
       <ExticleHighlight />
+      
     </div>
   );
 }

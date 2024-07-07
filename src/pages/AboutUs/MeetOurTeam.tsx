@@ -116,15 +116,15 @@ const MeetOurTeam = () => {
         </div>
       </section>
 
-      <Creatives setIndex={setCurrentViewed} index={1} />
-      <Design setIndex={setCurrentViewed} index={2} />
-      <Humanresources setIndex={setCurrentViewed} index={3} />
-      <Finance setIndex={setCurrentViewed} index={4} />
-      <Projectmanagement setIndex={setCurrentViewed} index={5} />
-      <Software setIndex={setCurrentViewed} index={6} />
-      <Relation setIndex={setCurrentViewed} index={7} />
-      <TnD setIndex={setCurrentViewed} index={8} />
-      <Hardware setIndex={setCurrentViewed} index={9} />
+      <Creatives setIndex={setCurrentViewed} index={1}/>
+      <Design setIndex={setCurrentViewed} index={2}/>
+      <Humanresources setIndex={setCurrentViewed} index={3}/>
+      <Finance setIndex={setCurrentViewed} index={4}/>
+      <Projectmanagement setIndex={setCurrentViewed} index={5}/>
+      <Software setIndex={setCurrentViewed} index={6}/>
+      <Relation setIndex={setCurrentViewed} index={7}/>
+      <TnD setIndex={setCurrentViewed} index={8}/>
+      <Hardware setIndex={setCurrentViewed} index={9}/>
 
       <Sidebar
         style={{

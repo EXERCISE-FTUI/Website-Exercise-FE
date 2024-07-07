@@ -21,7 +21,7 @@ const Creatives = ({
   return (
     <section
       ref={divRef}
-      id="creative"
+      id = "creative"
       className="bg-exer-grayblue px-4 md:px-[5%] pt-6 pb-20 flex justify-center items-center"
     >
       <div className="w-screen lg:w-[1200px]">

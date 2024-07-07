@@ -26,78 +26,89 @@ const team: Array<{
   title: string;
   subtitle: string;
   background: string;
+  link: string;
 }> = [
-  {
-    icon: l1,
-    title: "Executive",
-    subtitle:
-      "TEST Weaving the magic of creativity with the power of strategy, our Marketing and Branding division crafts a distinctive narrative for Exercise.",
-    background: f1,
-  },
-  {
-    icon: l2,
-    title: "Software",
-    subtitle:
-      "TEST Weaving the magic of creativity with the power of strategy, our Marketing and Branding division crafts a distinctive narrative for Exercise.",
-    background: f2,
-  },
-  {
-    icon: l3,
-    title: "Design Specialist",
-    subtitle:
-      "TEST Weaving the magic of creativity with the power of strategy, our Marketing and Branding division crafts a distinctive narrative for Exercise.",
-    background: f3,
-  },
-  {
-    icon: l4,
-    title: "Creative",
-    subtitle:
-      "TEST Weaving the magic of creativity with the power of strategy, our Marketing and Branding division crafts a distinctive narrative for Exercise.",
-    background: f4,
-  },
-  {
-    icon: l5,
-    title: "Hardware",
-    subtitle:
-      "TEST Weaving the magic of creativity with the power of strategy, our Marketing and Branding division crafts a distinctive narrative for Exercise.",
-    background: f5,
-  },
-  {
-    icon: l6,
-    title: "Training & Development",
-    subtitle:
-      "TEST Weaving the magic of creativity with the power of strategy, our Marketing and Branding division crafts a distinctive narrative for Exercise.",
-    background: f6,
-  },
-  {
-    icon: l7,
-    title: "Relation",
-    subtitle:
-      "TEST Weaving the magic of creativity with the power of strategy, our Marketing and Branding division crafts a distinctive narrative for Exercise.",
-    background: f7,
-  },
-  {
-    icon: l8,
-    title: "Project Manager",
-    subtitle:
-      "TEST Weaving the magic of creativity with the power of strategy, our Marketing and Branding division crafts a distinctive narrative for Exercise.",
-    background: f8,
-  },
-  {
-    icon: l9,
-    title: "Finance & Secretary",
-    subtitle:
-      "TEST Weaving the magic of creativity with the power of strategy, our Marketing and Branding division crafts a distinctive narrative for Exercise.",
-    background: f9,
-  },
-  {
-    icon: l10,
-    title: "Human Resource",
-    subtitle:
-      "TEST Weaving the magic of creativity with the power of strategy, our Marketing and Branding division crafts a distinctive narrative for Exercise.",
-    background: f10,
-  },
-];
+    {
+      icon: l1,
+      title: "Executive",
+      subtitle:
+        "Weaving the magic of creativity with the power of strategy, our Marketing and Branding division crafts a distinctive narrative for Exercise that resonates with audiences and leaves a lasting impact. From developing marketing strategies, to executing campaigns and analyzing results.",
+      background: f1,
+      link:"about-us#the-executives"
+    },
+    {
+      icon: l2,
+      title: "Software",
+      subtitle:
+        "This is where the magic happens. Picture a team of tech-savvy superheroes, armed with keyboards and creativity, on a mission to turn ideas into reality. this dynamic squad handles everything software-related with finesse. With their expertise and passion, they transform visions into functional, user-friendly software that propels EXERCISE into the future",
+      background: f2,
+      link:"about-us#software"
+    },
+    {
+      icon: l3,
+      title: "Design Specialist",
+      subtitle:
+        "Creates a cohesive look and feel that sets us apart and establishes EXERCISE’s identity. The Design Specialist division is where art and function converge to bring our vision to life. Infuse every project with beauty and style, elevating it beyond the ordinary to the extraordinary.",
+      background: f3,
+      link:"about-us#design-specialist"
+    },
+    {
+      icon: l4,
+      title: "Creative",
+      subtitle:
+        "TEST Infusing the Ethos of Creativity and the Precision of Strategic Vision, Our Marketing and Branding Division Embarks on a Journey to Weave an Intricate Tapestry of Identity for Exercise. Through meticulous attention to detail and a deep understanding of market dynamics, we shape a narrative that not only resonates but also captivates.",
+      background: f4,
+      link:"about-us#creative"
+    },
+    {
+      icon: l5,
+      title: "Hardware",
+      subtitle:
+        "The backbone of our technological endeavors, responsible for bringing the physical components of our products to life. From designing and testing complex circuits to fine-tuning and assembling intricate hardware, our team of skilled engineers and technicians are the unsung heroes of innovation.",
+      background: f5,
+      link:"about-us#hardware"
+    },
+    {
+      icon: l6,
+      title: "Training & Development",
+      subtitle:
+        "The backbone of Exercise’s financial stability and success. Responsible for creating and implementing financial strategies, managing budgets, and making informed decisions that guide the financial future of our organization. Their unwavering commitment to accuracy and integrity ensures the long-term growth and prosperity of the team.",
+      background: f6,
+      link:"about-us#training-and-development"
+    },
+    {
+      icon: l7,
+      title: "Relation",
+      subtitle:
+        "As the liaisons between EXERCISE and our clients, they're the communication wizards ensuring seamless interactions and fostering lasting partnerships. With a knack for networking, they excel in building mutually beneficial relationships, paving the way for fruitful collaborations.",
+      background: f7,
+      link:"about-us#relation"
+    },
+    {
+      icon: l8,
+      title: "Project Manager",
+      subtitle:
+        "Work closely with the technical team to ensure projects are planned, executed, and delivered on time and within budget. Twenty-four seven, the Project Management division is the driving force behind our technical team’s success in bringing innovative ideas to life by leverages their expertise to overcome challenges, minimize risk, and maximize results.",
+      background: f8,
+      link:"about-us#project-manager"
+    },
+    {
+      icon: l9,
+      title: "Finance & Secretary",
+      subtitle:
+        "The backbone of Exercise’s financial stability and success. Responsible for creating and implementing financial strategies, managing budgets, and making informed decisions that guide the financial future of our organization. Their unwavering commitment to accuracy and integrity ensures the long-term growth and prosperity of the team.",
+      background: f9,
+      link:"about-us#finance-and-secretary"
+    },
+    {
+      icon: l10,
+      title: "Human Resource",
+      subtitle:
+        "The one who take a role to fostering a positive and productive work environment for all teams. Human Resources Division works tirelessly to support the growth and development of each individual, creating a culture that values collaboration, inclusivity, and professionalism.",
+      background: f10,
+      link:"about-us#human-resources"
+    },
+  ];
 
 export default function Team() {
   return (
@@ -118,7 +129,6 @@ export default function Team() {
           className=' md:w-[600px] w-[200px] pb-[4rem] md:pb-[12rem] object-contain'
         />
       </div>
-
       <div
         id='team-boxes'
         className='
@@ -133,6 +143,7 @@ export default function Team() {
             title={team.title}
             subtitle={team.subtitle}
             background={team.background}
+            link={team.link}
           />
         ))}
       </div>

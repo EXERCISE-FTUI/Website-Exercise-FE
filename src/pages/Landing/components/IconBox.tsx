@@ -14,7 +14,9 @@ export default function IconBox(props: {
             w-36  min-h-52
             bg-exer-white text-exer-charcoal
             hover:scale-110 transition-all duration-300
-          '>
+            hover:cursor-pointer
+          '
+          onClick={() => window.location.href = `/past-projects?filter=${props.alt}`}>
       <img
         src={props.icon}
         alt={props.alt}

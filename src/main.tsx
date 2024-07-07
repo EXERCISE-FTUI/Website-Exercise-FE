@@ -12,6 +12,7 @@ import FeaturesPage from "./pages/Features"
 import AboutUsPage from "./pages/AboutUs"
 import DisplayArticle from "./pages/ExTicle/displayArticle"
 import PastProjectPage from "./pages/PastProject"
+import Events from "./pages/Events"
 const router = createBrowserRouter([
   {
     element: <App />,
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
         path: "/past-projects",
         element: <PastProjectPage/>,
       },
+      {
+        path: "/events",
+        element: <Events />,
+      }
     ],
   },
   {
