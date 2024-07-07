@@ -7,4 +7,4 @@ COPY . .
 EXPOSE 5137
 RUN chown -R node /usr/src/app
 USER node
-CMD ["npm", "dev"]
+CMD ["npm", "run", "dev"]
