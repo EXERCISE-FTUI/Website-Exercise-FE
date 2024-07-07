@@ -1,13 +1,11 @@
-import React from "react"
-
 import close from "../../assets/navbar-icons/close.png"
 
-function Close({ size, style = "", ...props }){
+function Close({style = ""}){
     return (
         <img
         alt="burger-x"
         src={close}
-        className={`${size || "h-6"} ${style}`}
+        className={`${style}`}
         />
     )
 }

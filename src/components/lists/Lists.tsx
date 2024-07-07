@@ -1,7 +1,6 @@
-import React from "react"
 import { Link, useLocation } from "react-router-dom";
 
-function Lists({ lists = [], style = "", ...props }) {
+function Lists({ lists = [] as string[], style = "", ...props }) {
     const location = useLocation();
 
     return lists.map((list, i) => (

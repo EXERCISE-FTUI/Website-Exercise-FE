@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import TestominySVG from '../../../assets/landing/Testimony/OurAlumniTestimonials.svg';
 import { useImages } from '../../../assets/imageLoader';
 import TestimonyList from '../../../assets/landing/Testimony';

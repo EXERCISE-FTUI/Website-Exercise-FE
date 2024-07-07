@@ -1,13 +1,11 @@
-import React from "react"
-
 import bars from "../../assets/navbar-icons/burger.png"
 
-function Bars({ size, style = "", ...props }){
+function Bars({ style = ""}){
     return (
         <img
         alt="burger-bar"
         src={bars}
-        className={`${size || "h-7"} ${style}`}
+        className={`${style}`}
         />
     )
 }

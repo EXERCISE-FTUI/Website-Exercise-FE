@@ -1,4 +1,4 @@
-import React, { useRef, useState, MouseEvent } from 'react';
+import { useRef, useState, MouseEvent } from 'react';
 import arrow from '../assets/exticle/arrow.png';
 import { useImages } from '../assets/imageLoader';
 import ExticleList from '../assets/exticle';

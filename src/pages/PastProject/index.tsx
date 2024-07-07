@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useImages } from '../../assets/imageLoader';
 import PastProjectList from "../../assets/pastProject";
 import TokPed from "../../assets/pastProject/images/tokopedia.png";

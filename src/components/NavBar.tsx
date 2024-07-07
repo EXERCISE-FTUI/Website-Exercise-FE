@@ -1,6 +1,4 @@
-import React, {useState} from "react"
-import { Link } from "react-router-dom"
-
+import { useState } from "react"
 import Lists from "./lists/Lists"
 import ListsBurger from "./lists/ListsBurger"
 import Logo from "./logo/Logo"
