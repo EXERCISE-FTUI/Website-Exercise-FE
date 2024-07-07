@@ -2,7 +2,7 @@ import IconBox from "../components/IconBox";
 import Our from "../../../assets/landing/LandingOur.png";
 import UIUX from "../../../assets/landing/LandingUIUX.png";
 import Software from "../../../assets/landing/LandingSoftware.png";
-import Creative from "../../../assets/landing/LandingCreative.png";
+// import Creative from "../../../assets/landing/LandingCreative.png";
 import IOT from "../../../assets/landing/LandingIOT.png";
 
 const works: Array<{

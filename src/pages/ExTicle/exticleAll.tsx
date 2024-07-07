@@ -1,4 +1,3 @@
-import React from 'react';
 import { useImages } from '../../assets/imageLoader';
 import ExticleList from '../../assets/exticle';
 import { useNavigate } from 'react-router-dom';
