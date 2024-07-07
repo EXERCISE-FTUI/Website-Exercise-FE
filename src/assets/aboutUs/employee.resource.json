@@ -4,15 +4,15 @@
         "division": "Executive",
         "batch": 2024,
         "position": "President",
-        "image": "",
+        "image": "president.png",
         "linkedIn": ""
     },
     {
-        "name": "Giovan Christoffel Sihombing",
+        "name": "Giovan Christoffel",
         "division": "Executive",
         "batch": 2024,
         "position": "Vice President",
-        "image": "",
+        "image": "vicepresident.png",
         "linkedIn": ""
     },
     {
@@ -20,7 +20,7 @@
         "division": "Hardware",
         "batch": 2024,
         "position": "Director",
-        "image": "",
+        "image": "sut.png",
         "linkedIn": ""
     },
     {
@@ -28,7 +28,7 @@
         "division": "Hardware",
         "batch": 2024,
         "position": "Co-director",
-        "image": "",
+        "image": "daniel.png",
         "linkedIn": ""
     },
     {
@@ -36,7 +36,7 @@
         "division": "Hardware",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "wira.png",
         "linkedIn": ""
     },
     {
@@ -44,7 +44,7 @@
         "division": "Hardware",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "kevin.png",
         "linkedIn": ""
     },
     {
@@ -52,7 +52,7 @@
         "division": "Hardware",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "alifiqbal.png",
         "linkedIn": ""
     },
     {
@@ -60,7 +60,7 @@
         "division": "Hardware",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "danen.png",
         "linkedIn": ""
     },
     {
@@ -68,15 +68,15 @@
         "division": "Hardware",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "boni.png",
         "linkedIn": ""
     },
     {
-        "name": "Kamal Makarim Iskandar",
+        "name": "Kamal Makarim",
         "division": "Software",
         "batch": 2024,
         "position": "Director",
-        "image": "",
+        "image": "kamal.png",
         "linkedIn": ""
     },
     {
@@ -84,7 +84,7 @@
         "division": "Software",
         "batch": 2024,
         "position": "Co-director",
-        "image": "",
+        "image": "kimdokja.png",
         "linkedIn": ""
     },
     {
@@ -92,7 +92,7 @@
         "division": "Software",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "javen.png",
         "linkedIn": ""
     },
     {
@@ -100,7 +100,7 @@
         "division": "Software",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "EDGRANS.png",
         "linkedIn": ""
     },
     {
@@ -108,7 +108,7 @@
         "division": "Software",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "billie.png",
         "linkedIn": ""
     },
     {
@@ -116,7 +116,7 @@
         "division": "Software",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "Tian 1.png",
         "linkedIn": ""
     },
     {
@@ -124,7 +124,7 @@
         "division": "Software",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "dean.png",
         "linkedIn": ""
     },
     {
@@ -132,7 +132,7 @@
         "division": "Software",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "bene.png",
         "linkedIn": ""
     },
     {
@@ -140,7 +140,7 @@
         "division": "Software",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "Kautsar 1.png",
         "linkedIn": ""
     },
     {
@@ -148,7 +148,7 @@
         "division": "Software",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "wilman.png",
         "linkedIn": ""
     },
     {
@@ -156,7 +156,7 @@
         "division": "Software",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "joko.png",
         "linkedIn": ""
     },
     {
@@ -164,7 +164,15 @@
         "division": "Software",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "nofal.png",
+        "linkedIn": ""
+    },
+    {
+        "name": "Harris Bimo",
+        "division": "Software",
+        "batch": 2024,
+        "position": "Staff",
+        "image": "harris.png",
         "linkedIn": ""
     },
     {
@@ -172,15 +180,15 @@
         "division": "Training and Development",
         "batch": 2024,
         "position": "Director",
-        "image": "",
+        "image": "wendy3.png",
         "linkedIn": ""
     },
     {
-        "name": "Ivan Yuantama Pradipta",
+        "name": "Ivan Yuantama",
         "division": "Training and Development",
         "batch": 2024,
         "position": "Co-director",
-        "image": "",
+        "image": "ivan2.png",
         "linkedIn": ""
     },
     {
@@ -188,7 +196,7 @@
         "division": "Training and Development",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "tania.png",
         "linkedIn": ""
     },
     {
@@ -196,7 +204,7 @@
         "division": "Training and Development",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "gerrardin.png",
         "linkedIn": ""
     },
     {
@@ -204,7 +212,7 @@
         "division": "Training and Development",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "giovany.png",
         "linkedIn": ""
     },
     {
@@ -212,23 +220,23 @@
         "division": "Training and Development",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "falah.png",
         "linkedIn": ""
     },
     {
-        "name": "Lavly Rantissa Zunnuraina Rusdi",
+        "name": "Lavly Rantissa",
         "division": "Design",
         "batch": 2024,
         "position": "Director",
-        "image": "",
+        "image": "lavly.png",
         "linkedIn": ""
     },
     {
-        "name": "Hafizyah Rayhan Zulikhram ",
+        "name": "Hafizyah Rayhan",
         "division": "Design",
         "batch": 2024,
         "position": "Co-director",
-        "image": "",
+        "image": "hafiz.png",
         "linkedIn": ""
     },
     {
@@ -236,7 +244,7 @@
         "division": "Design",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "riyansatrio.png",
         "linkedIn": ""
     },
     {
@@ -244,7 +252,7 @@
         "division": "Design",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "zhafira.png",
         "linkedIn": ""
     },
     {
@@ -252,7 +260,7 @@
         "division": "Design",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "hanah.png",
         "linkedIn": ""
     },
     {
@@ -260,7 +268,7 @@
         "division": "Design",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "luthfi.png",
         "linkedIn": ""
     },
     {
@@ -268,7 +276,7 @@
         "division": "Design",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "audy.png",
         "linkedIn": ""
     },
     {
@@ -276,7 +284,7 @@
         "division": "Design",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "raka.png",
         "linkedIn": ""
     },
     {
@@ -284,7 +292,7 @@
         "division": "Design",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "zahra.png",
         "linkedIn": ""
     },
     {
@@ -292,23 +300,23 @@
         "division": "Design",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "carissa.png",
         "linkedIn": ""
     },
     {
-        "name": "Timothy Farell Lasmana",
+        "name": "Timothy Farell",
         "division": "Project Management",
         "batch": 2024,
         "position": "Director",
-        "image": "",
+        "image": "timo.png",
         "linkedIn": ""
     },
     {
-        "name": "Ryan Safa Tjendana",
+        "name": "Ryan Safa T.",
         "division": "Project Management",
         "batch": 2024,
         "position": "Co-director",
-        "image": "",
+        "image": "ryan.png",
         "linkedIn": ""
     },
     {
@@ -316,7 +324,7 @@
         "division": "Project Management",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "wiellona.png",
         "linkedIn": ""
     },
     {
@@ -324,7 +332,7 @@
         "division": "Project Management",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "shasya.png",
         "linkedIn": ""
     },
     {
@@ -332,7 +340,7 @@
         "division": "Project Management",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "dea.png",
         "linkedIn": ""
     },
     {
@@ -340,7 +348,7 @@
         "division": "Project Management",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "azka.png",
         "linkedIn": ""
     },
     {
@@ -348,23 +356,23 @@
         "division": "Project Management",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "dafriz.png",
         "linkedIn": ""
     },
     {
-        "name": "Sihombing Giovano Geraldo",
+        "name": "Giovano Geraldo",
         "division": "Relation",
         "batch": 2024,
         "position": "Director",
-        "image": "",
+        "image": "giovano.png",
         "linkedIn": ""
     },
     {
-        "name": "Darren Nathanael Boentara",
+        "name": "Darren Nathanael",
         "division": "Relation",
         "batch": 2024,
         "position": "Co-director",
-        "image": "",
+        "image": "darren.png",
         "linkedIn": ""
     },
     {
@@ -372,7 +380,7 @@
         "division": "Relation",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "zahwa.png",
         "linkedIn": ""
     },
     {
@@ -380,7 +388,7 @@
         "division": "Relation",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "naira.png",
         "linkedIn": ""
     },
     {
@@ -388,7 +396,7 @@
         "division": "Relation",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "yoel.png",
         "linkedIn": ""
     },
     {
@@ -396,7 +404,7 @@
         "division": "Finance and Secretary",
         "batch": 2024,
         "position": "Director",
-        "image": "",
+        "image": "pliho.png",
         "linkedIn": ""
     },
     {
@@ -404,7 +412,7 @@
         "division": "Finance and Secretary",
         "batch": 2024,
         "position": "Co-director",
-        "image": "",
+        "image": "tara.png",
         "linkedIn": ""
     },
     {
@@ -412,15 +420,15 @@
         "division": "Finance and Secretary",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "aliya.png",
         "linkedIn": ""
     },
     {
-        "name": "Surya Dharmasaputra Soeroso",
+        "name": "Surya Dharmasaputra",
         "division": "Human Resource",
         "batch": 2024,
         "position": "Director",
-        "image": "",
+        "image": "surya.png",
         "linkedIn": ""
     },
     {
@@ -428,7 +436,7 @@
         "division": "Human Resource",
         "batch": 2024,
         "position": "Co-director",
-        "image": "",
+        "image": "aida.png",
         "linkedIn": ""
     },
     {
@@ -436,7 +444,7 @@
         "division": "Human Resource",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "jibril.png",
         "linkedIn": ""
     },
     {
@@ -444,7 +452,7 @@
         "division": "Human Resource",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "faruq.png",
         "linkedIn": ""
     },
     {
@@ -452,7 +460,7 @@
         "division": "Human Resource",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "laura.png",
         "linkedIn": ""
     },
     {
@@ -460,15 +468,15 @@
         "division": "Creatives",
         "batch": 2024,
         "position": "Director",
-        "image": "",
+        "image": "emir.png",
         "linkedIn": ""
     },
     {
-        "name": "Raihan Muhammad Ihsan",
+        "name": "Raihan M. Ihsan",
         "division": "Creatives",
         "batch": 2024,
         "position": "Co-director",
-        "image": "",
+        "image": "isan.png",
         "linkedIn": ""
     },
     {
@@ -476,7 +484,7 @@
         "division": "Creatives",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "sitiamalia.png",
         "linkedIn": ""
     },
     {
@@ -484,7 +492,7 @@
         "division": "Creatives",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "alsha.png",
         "linkedIn": ""
     },
     {
@@ -492,7 +500,7 @@
         "division": "Creatives",
         "batch": 2024,
         "position": "Staff",
-        "image": "",
+        "image": "feyza.png",
         "linkedIn": ""
     }
 ]

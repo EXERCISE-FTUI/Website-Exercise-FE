@@ -4,6 +4,7 @@ export default function TeamBox(props: {
   title: string;
   subtitle: string;
   background: string;
+  link: string;
 }) {
   return (
     <div
@@ -14,8 +15,9 @@ export default function TeamBox(props: {
       min-w-[18rem] h-[16rem] rounded-[3rem] border-2
       text-exer-white justify-center md:pb-8 pb-2
       hover:bg-exer-white hover:text-exer-charcoal group transition-all duration-300 ease-in-out
-      cursor-pointer
-    '>
+      cursor-pointer'
+      onClick={() => window.open(props.link, '_self')}
+    >
       <div className='flex flex-col items-center justify-center group-hover:justify-between transition-all duration-300 group'>
         <img
           src={props.background}
@@ -28,10 +30,10 @@ export default function TeamBox(props: {
           {props.title}
         </h3>
       </div>
-
-      <p id='team-subtitle' className='text-center mx-6 md:text-[1rem] text-sm'>
+      <p id='team-subtitle' className='text-center mx-6 md:text-[1rem] text-xs'>
         {props.subtitle}
       </p>
+
     </div>
   );
 }

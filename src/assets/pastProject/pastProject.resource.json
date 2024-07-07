@@ -16,5 +16,11 @@
         "description": "Seamless Conversion & Timestamp Signing Program Try Now! and Transform DOCX to PDF This Program was created with Python, Java, Django, and Spring Integration!",
         "image": "DocumentConversion.png",
         "type": ["Software"]
+    },
+    {
+        "title": "Bluetooth Positioning",
+        "description": "Membuat sistem beacon scanning dengan menggunakan ESP32 untuk mengetahui device yang melakukan scan ada di lantai berapa. Terdapat pembuatan aplikasi juga yang menunjukkan beacon yang di-scan dan juga sistem navigasi dengan GPS menggunakan React Native.",
+        "image": "Bluetooth.png",
+        "type": ["Software", "IOT", "UI/UX"]
     }
 ]
