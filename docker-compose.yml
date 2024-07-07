@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  websiteexercisefe:
+    image: websiteexercisefe
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 6790:5137
