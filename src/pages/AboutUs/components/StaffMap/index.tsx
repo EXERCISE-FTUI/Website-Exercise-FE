@@ -1,5 +1,5 @@
-import EmployeeList from "./../../index";
-import { useImages } from "../../../imageLoader";
+import EmployeeList from "../../../../../public/assets/aboutUs";
+import { useImages } from "../../../../../public/assets/imageLoader";
 
 function StaffMap({ divisi }: { divisi: string }) {
   const staffOf = EmployeeList.filter(
@@ -18,7 +18,7 @@ function StaffMap({ divisi }: { divisi: string }) {
             STAFFS
           </h1>
         </div>
-        <div className="flex flex-wrap justify-center gap-x-2  gap-y-3 md:gap-x-8 md:gap-y-16 w-full h-fit">
+        <div className="flex flex-wrap justify-center gap-x-2  gap-y-3 md:gap-x-8 md:gap-y-16 w-ful h-fit">
           {staffOf?.map((data, index) => {
             return (
               <div key={index} className="flex flex-col gap-2">

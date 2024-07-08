@@ -1,8 +1,8 @@
 import { useEffect, useRef } from "react";
 import { useInView } from "framer-motion";
 
-import DirectorMap from "../../../../public/assets/aboutUs/components/DirectorMap";
-import StaffMap from "../../../../public/assets/aboutUs/components/StaffMap";
+import DirectorMap from "../components/DirectorMap";
+import StaffMap from "../components/StaffMap";
 
 const Humanresources = ({
   index = 3,
