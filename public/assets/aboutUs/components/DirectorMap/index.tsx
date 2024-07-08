@@ -11,9 +11,7 @@ function DirectorMap({ divisi, right }: { divisi: string; right: boolean }) {
         datas.position == "President" ||
         datas.position == "Vice President")
   );
-
-  const images = useImages("./aboutUs/images", staffOf);
-
+  const images = useImages("./aboutUs/images", staffOf); 
   return (
     <>
       {right ? (
@@ -21,7 +19,6 @@ function DirectorMap({ divisi, right }: { divisi: string; right: boolean }) {
           <img
             src={images[staffOf[0].image] || ""}
             alt={staffOf[0].name}
-            className="absolute right-[26%] md:right-[25%] lg:right-80 bottom-[25%] md:bottom-[23%]  lg:bottom-[104px] w-[33%] md:w-[30%] lg:w-auto drop-shadow-lg"
           />
           <img
             src={images[staffOf[1].image] || ""}

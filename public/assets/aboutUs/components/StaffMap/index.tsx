@@ -18,7 +18,7 @@ function StaffMap({ divisi }: { divisi: string }) {
             STAFFS
           </h1>
         </div>
-        <div className="flex flex-wrap-reverse justify-center gap-x-2  gap-y-3 md:gap-x-8 md:gap-y-16">
+        <div className="flex flex-wrap justify-center gap-x-2  gap-y-3 md:gap-x-8 md:gap-y-16 w-full h-fit">
           {staffOf?.map((data, index) => {
             return (
               <div key={index} className="flex flex-col gap-2">

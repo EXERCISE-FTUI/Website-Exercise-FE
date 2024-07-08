@@ -1,11 +1,11 @@
 import { useState, useRef, useEffect } from "react";
 import { useInView } from "framer-motion";
-import { useImages } from "./../../assets/imageLoader";
+import { useImages } from "./../../../public/assets/imageLoader";
 
 import Sidebar from "./Sidebar";
-import EmployeeList from "../../assets/aboutUs";
+import EmployeeList from "../../../public/assets/aboutUs";
 
-import garis from "./../../assets/aboutUs/images/exect.svg";
+import garis from "./../../../public/assets/aboutUs/images/exect.svg";
 
 import Creatives from './division/Creatives';
 import Design from './division/Design';

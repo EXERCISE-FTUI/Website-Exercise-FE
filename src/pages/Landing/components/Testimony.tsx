@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import TestominySVG from '../../../assets/landing/Testimony/OurAlumniTestimonials.svg';
-import { useImages } from '../../../assets/imageLoader';
-import TestimonyList from '../../../assets/landing/Testimony';
+import TestominySVG from '../../../../public/assets/landing/Testimony/OurAlumniTestimonials.svg';
+import { useImages } from '../../../../public/assets/imageLoader';
+import TestimonyList from '../../../../public/assets/landing/Testimony';
 
 export default function Testimony() {
     const [currentSlide, setCurrentSlide] = useState(0);

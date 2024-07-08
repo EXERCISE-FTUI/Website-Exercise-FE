@@ -12,7 +12,8 @@ function DisplayArticle() {
         // Function to fetch and convert markdown
         const fetchArticle = async () => {
             try {
-                const response = await fetch(`/src/assets/exticle/texts/${articleFile}`);
+                const mdURL = new URL(`/assets/exticle/texts/${articleFile}`, window.location.href).href;
+                const response = await fetch(mdURL);
                 const text = await response.text();
                 const html = await marked(text, { renderer: customRenderer });
                 setArticleContent(html);

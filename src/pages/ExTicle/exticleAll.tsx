@@ -1,5 +1,5 @@
-import { useImages } from '../../assets/imageLoader';
-import ExticleList from '../../assets/exticle';
+import { useImages } from '../../../public/assets/imageLoader';
+import ExticleList from '../../../public/assets/exticle';
 import { useNavigate } from 'react-router-dom';
 
 function ExticleAll(): JSX.Element {

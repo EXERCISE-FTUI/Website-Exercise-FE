@@ -1,8 +1,8 @@
 import Logo from "./logo/Logo"
 
-import ig from "../assets/footer-icons/ig.png"
-import linked from "../assets/footer-icons/linked.png"
-import wa from "../assets/footer-icons/wa.png"
+import ig from "../../public/assets/footer-icons/ig.png"
+import linked from "../../public/assets/footer-icons/linked.png"
+import wa from "../../public/assets/footer-icons/wa.png"
 function Footer() {
     return (
         <footer id="footer" className="bg-exer-charcoal text-white">

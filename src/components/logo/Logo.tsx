@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-import logo from "../../assets/exercise-logos.svg"
+import logo from "../../../public/assets/exercise-logos.svg"
 
 function Logo({style = "", ...props }: {style?: string, onClick?: () => void }) {
     return (

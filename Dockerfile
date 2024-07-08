@@ -1,16 +1,29 @@
-FROM node:lts-alpine
-ENV NODE_ENV=production
-WORKDIR /usr/src/app
-COPY ["package.json", "package-lock.json*", "npm-shrinkwrap.json*", "./"]
+# Stage 1: Build the React app
+FROM node:16-alpine AS builder
+
+# Set the working directory
+WORKDIR /app
+
+# Copy package.json and package-lock.json
+COPY package*.json ./
+
+# Install dependencies
 RUN npm install
-RUN npm install -g vite
-RUN npm install --include=dev
+
+# Copy the rest of the app
 COPY . .
-EXPOSE 5173
-EXPOSE 6790
-EXPOSE 9229
-RUN tsc -p tsconfig.json
+
+# Build the app
 RUN npm run build
-RUN chown -R node /usr/src/app
-USER node
-CMD ["npm", "run", "dev"]
+
+# Stage 2: Serve the React app
+FROM nginx:alpine
+
+# Copy the build output to the nginx html directory
+COPY --from=builder /app/dist /usr/share/nginx/html
+
+# Expose port 80
+EXPOSE 80
+
+# Start nginx
+CMD ["nginx", "-g", "daemon off;"]

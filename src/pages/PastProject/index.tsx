@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import { useImages } from '../../assets/imageLoader';
-import PastProjectList from "../../assets/pastProject";
-import TokPed from "../../assets/pastProject/images/tokopedia.png";
-import Flip from "../../assets/pastProject/images/flip.png";
-import Docu from "../../assets/pastProject/images/DocumentConversion.png";
+import { useImages } from '../../../public/assets/imageLoader';
+import PastProjectList from "../../../public/assets/pastProject";
+import TokPed from "../../../public/assets/pastProject/images/tokopedia.png";
+import Flip from "../../../public/assets/pastProject/images/flip.png";
+import Docu from "../../../public/assets/pastProject/images/DocumentConversion.png";
 import PageButton from './pageButton';
 const ITEMS_PER_PAGE = 3;
 function PastProject() {

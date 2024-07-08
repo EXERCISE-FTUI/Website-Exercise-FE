@@ -1,6 +1,6 @@
-import RecentEvents from "../../../assets/landing/RecentEvents.png";
-import { useImages } from "../../../assets/imageLoader";
-import events from "../../../assets/events";
+import RecentEvents from "../../../../public/assets/landing/RecentEvents.png";
+import { useImages } from "../../../../public/assets/imageLoader";
+import events from "../../../../public/assets/events";
 import { useState } from "react";
 
 

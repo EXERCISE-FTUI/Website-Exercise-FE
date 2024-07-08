@@ -1,7 +1,7 @@
 import "./../../index.css";
 
-import Hammer from "./../../assets/features/image/mobilehammer.png";
-import Button from "./../../assets/features/image/button.png";
+import Hammer from "./../../../public/assets/features/image/mobilehammer.png";
+import Button from "./../../../public/assets/features/image/button.png";
 import CheckOurTools from "../../components/CheckOurTools";
 
 function Features() {

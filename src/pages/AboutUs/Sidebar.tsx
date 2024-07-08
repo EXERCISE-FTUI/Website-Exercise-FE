@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import sidebar from "../../assets/aboutUs/sidebar";
+import sidebar from "../../../public/assets/aboutUs/sidebar";
 
 const Sidebar = ({style,index,}:{
   style: { transform: string; opacity: number; transition: string };

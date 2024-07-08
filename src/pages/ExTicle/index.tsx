@@ -1,6 +1,6 @@
 import { useRef, RefObject} from 'react';
-import dots from '../../assets/exticle/dots.png';
-import arrow from '../../assets/exticle/arrow.png';
+import dots from '../../../public/assets/exticle/dots.png';
+import arrow from '../../../public/assets/exticle/arrow.png';
 import ExticleAll from './exticleAll';
 
 function ExTicle() {
