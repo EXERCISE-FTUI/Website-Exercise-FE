@@ -8,6 +8,8 @@ interface ImageItem {
   image: string;
 }
 
+const defaultPath = 'src/assets';
+
 export const useImages = (path: string, imageList: ImageItem[]) => {
   const [images, setImages] = useState<ImagesMap>({});
 
@@ -16,8 +18,13 @@ export const useImages = (path: string, imageList: ImageItem[]) => {
       const loadedImages: ImagesMap = {};
       await Promise.all(imageList.map(async (item) => {
         try {
-          const image = await import(/* @vite-ignore */ `${path}/${item.image}`);
-          loadedImages[item.image] = image.default;
+          const imageUrl = new URL(`${defaultPath}/${path}/${item.image}`, window.location.href).href;
+          const response = await fetch(imageUrl);
+          if (response.ok) {
+            loadedImages[item.image] = imageUrl;
+          } else {
+            throw new Error(`Failed to load image: ${imageUrl}`);
+          }
         } catch (error) {
           console.error("Error loading images:", error);
           loadedImages[item.image] = null;
@@ -27,7 +34,7 @@ export const useImages = (path: string, imageList: ImageItem[]) => {
     };
 
     loadImages();
-  }, [path, imageList]);
+  }, [imageList]);
 
   return images;
 };
