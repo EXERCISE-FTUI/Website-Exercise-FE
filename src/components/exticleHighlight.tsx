@@ -1,7 +1,7 @@
 import { useRef, useState, MouseEvent } from 'react';
-import arrow from '../assets/exticle/arrow.png';
-import { useImages } from '../assets/imageLoader';
-import ExticleList from '../assets/exticle';
+import arrow from '../../public/assets/exticle/arrow.png';
+import { useImages } from '../../public/assets/imageLoader';
+import ExticleList from '../../public/assets/exticle';
 import { useNavigate } from 'react-router-dom';
 
 

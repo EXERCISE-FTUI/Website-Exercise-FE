@@ -1,9 +1,7 @@
 import { useEffect, useRef } from "react";
 import { useInView } from "framer-motion";
-
-import DirectorMap from "../../../assets/aboutUs/components/DirectorMap";
-import StaffMap from "../../../assets/aboutUs/components/StaffMap";
-
+import DirectorMap from "../components/DirectorMap";
+import StaffMap from "../components/StaffMap";
 const Relation = ({
   index = 7,
   setIndex,

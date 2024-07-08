@@ -1,7 +1,7 @@
 import { ArrowDown } from "@phosphor-icons/react";
-import Timbil from "./../../assets/aboutUs/images/timbil.png";
-import geoKiri from "./../../assets/aboutUs/images/Geo Kiri.png";
-import geoKanan from "./../../assets/aboutUs/images/Geo Kanan.png";
+import Timbil from "./../../../public/assets/aboutUs/images/timbil.png";
+import geoKiri from "./../../../public/assets/aboutUs/images/Geo Kiri.png";
+import geoKanan from "./../../../public/assets/aboutUs/images/Geo Kanan.png";
 
 const GetToKnow = () => {
   return (

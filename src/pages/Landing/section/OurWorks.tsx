@@ -1,9 +1,9 @@
 import IconBox from "../components/IconBox";
-import Our from "../../../assets/landing/LandingOur.png";
-import UIUX from "../../../assets/landing/LandingUIUX.png";
-import Software from "../../../assets/landing/LandingSoftware.png";
-// import Creative from "../../../assets/landing/LandingCreative.png";
-import IOT from "../../../assets/landing/LandingIOT.png";
+import Our from "../../../../public/assets/landing/LandingOur.png";
+import UIUX from "../../../../public/assets/landing/LandingUIUX.png";
+import Software from "../../../../public/assets/landing/LandingSoftware.png";
+// import Creative from "../../../../public/assets/landing/LandingCreative.png";
+import IOT from "../../../../public/assets/landing/LandingIOT.png";
 
 const works: Array<{
   icon: string;

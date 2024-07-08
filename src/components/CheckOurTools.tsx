@@ -1,5 +1,5 @@
-import { useImages } from "../assets/imageLoader";
-import ToolList from "../assets/tool";
+import { useImages } from "../../public/assets/imageLoader";
+import ToolList from "../../public/assets/tool";
 
 export default function CheckOurTools() {
   const images = useImages("./tool/images", ToolList);

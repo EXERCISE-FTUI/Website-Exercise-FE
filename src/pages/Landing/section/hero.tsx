@@ -1,4 +1,4 @@
-import VR from '/src/assets/landing/LandingVR.png';
+import VR from '../../../../public/assets/landing/LandingVR.png';
 
 export default function Hero() {
   return(

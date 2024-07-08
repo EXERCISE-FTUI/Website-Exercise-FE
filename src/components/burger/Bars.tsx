@@ -1,4 +1,4 @@
-import bars from "../../assets/navbar-icons/burger.png"
+import bars from "../../../public/assets/navbar-icons/burger.png"
 
 function Bars({ style = ""}){
     return (
