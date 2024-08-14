@@ -29,7 +29,7 @@ const Creatives = ({
         </h1>
         <div className="mb-12 relative h-[200px] md:h-[400px] lg:h-[500px]">
           <p className="absolute right-0 font-poppins text-[10px] md:text-[19px] lg:text-[25px] w-[40%] md:w-[35%] lg:w-[446px] text-justify text-exer-white">
-            TEST Infusing the Ethos of Creativity and the Precision of Strategic
+            Infusing the Ethos of Creativity and the Precision of Strategic
             Vision, Our Marketing and Branding Division Embarks on a Journey to
             Weave an Intricate Tapestry of Identity for Exercise. Through
             meticulous attention to detail and a deep understanding of market

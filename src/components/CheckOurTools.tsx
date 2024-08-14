@@ -20,11 +20,11 @@ export default function CheckOurTools() {
 
         {/* card untuk features */}
         <div className="flex flex-wrap md:overflow-x-hidden  mobsm:mt-[43px] sm:mt-[23px] lg:mt-[100px]">
-          <div className="flex w-full max-w-[745px] md:overflow-scroll [&>div]:flex-shrink-0 lg:gap-[72px] mobsm:no-scrollbar pb-6 lg:flex-row flex-col md:h-full md:gap-[22.2px] mobsm:h-full ">
+          <div className="flex w-full max-w-[745px] md:overflow-scroll [&>div]:flex-shrink-0 lg:gap-[72px] mobsm:no-scrollbar p-6 lg:flex-row flex-col md:h-full md:gap-[22.2px] mobsm:h-full ">
             {ToolList.map((tool, index) => (
               <div key={index}>
                 <a href={tool.link}>
-                  <div className="w-[345.3px]  md:h-[432.56px] bg-white rounded-[40px] md:overflow-hidden shadow-xl flex flex-col hover:scale-105 duration-300 origin-top-left overflow-x-auto lg:mx-0 lg:mb-0 mobsm:mb-10 md:mx-5">
+                  <div className="w-[345.3px]  md:h-[432.56px] bg-white rounded-[40px] my-auto hover:scale-105 md:overflow-hidden shadow-xl flex flex-col duration-300 origin-top-left overflow-x-auto lg:mx-0 lg:mb-0 mobsm:mb-10 md:mx-5">
 
                     <img
                       src={images[tool.image] || ''}

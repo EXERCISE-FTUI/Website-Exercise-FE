@@ -30,7 +30,7 @@ export default function TeamBox(props: {
           {props.title}
         </h3>
       </div>
-      <p id='team-subtitle' className='text-center mx-6 md:text-[1rem] text-xs'>
+      <p id='team-subtitle' className='text-justify mx-6 md:text-[1rem] text-xs'>
         {props.subtitle}
       </p>
 
