@@ -1,22 +1,23 @@
+# Use an official Node.js runtime as the base image
+FROM node:20-alpine
 
-FROM node:22-alpine
+# Set the working directory in the container
+WORKDIR /app
 
-ENV NODE_ENV=production
+# Copy the package.json and package-lock.json files to the container
+COPY package.json package-lock.json ./
 
-WORKDIR /usr/src/app
+# Install project dependencies
+RUN npm install
 
-COPY ["package.json", "package-lock.json*", "npm-shrinkwrap.json*", "./"]
-
-RUN npm install --silent
-
+# Copy the rest of the project files to the container
 COPY . .
 
-RUN chown -R node /usr/src/app
-
-USER node
-
+# Build the React app
 RUN npm run build
 
+# Expose the port that the server will listen on
 EXPOSE 3104
 
-CMD ["npm", "run", "preview"]
+# Start the application
+CMD [ "npm", "run", "preview" ]
