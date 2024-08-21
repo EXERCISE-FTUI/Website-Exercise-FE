@@ -8,3 +8,5 @@ services:
       dockerfile: ./Dockerfile
     environment:
       NODE_ENV: production
+    volumes:
+      - ./dist:/app/dist
