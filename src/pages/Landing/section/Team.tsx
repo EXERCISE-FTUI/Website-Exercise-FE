@@ -56,7 +56,7 @@ const team: Array<{
       icon: l4,
       title: "Creative",
       subtitle:
-        "TEST Infusing the Ethos of Creativity and the Precision of Strategic Vision, Our Marketing and Branding Division Embarks on a Journey to Weave an Intricate Tapestry of Identity for Exercise. Through meticulous attention to detail and a deep understanding of market dynamics, we shape a narrative that not only resonates but also captivates.",
+        "Infusing the Ethos of Creativity and the Precision of Strategic Vision, Our Marketing and Branding Division Embarks on a Journey to Weave an Intricate Tapestry of Identity for Exercise. Through meticulous attention to detail and a deep understanding of market dynamics, we shape a narrative that not only resonates but also captivates.",
       background: f4,
       link:"about-us#creative"
     },
@@ -156,6 +156,19 @@ export default function Team() {
           const teamBoxes = document.getElementById("team-boxes");
           if (teamBoxes) {
             teamBoxes.scrollLeft += 300;
+          }
+        }}>
+        {"⮞"}
+      </h1>
+      <h1
+        className='
+        text-white absolute left-0 mb-4 mr-2 
+        animate-pulse text-[4rem] drop-shadow-xl 
+        hover:opacity-0 opacity-50 z-10 cursor-pointer rotate-180'
+        onClick={() => {
+          const teamBoxes = document.getElementById("team-boxes");
+          if (teamBoxes) {
+            teamBoxes.scrollLeft -= 300;
           }
         }}>
         {"⮞"}
