@@ -10,6 +10,8 @@ COPY package.json package-lock.json ./
 # Install project dependencies
 RUN npm install
 
+RUN npm install -g vite
+
 # Copy the rest of the project files to the container
 COPY . .
 
