@@ -6,4 +6,4 @@ RUN npm install -g vite
 COPY . .
 RUN npm run build
 EXPOSE 3104
-CMD [ "npm", "run", "preview", "--host"]
+CMD ["serve", "-s", "dist", "-l", "3104"]
