@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { useInView } from "framer-motion";
-import { useImages } from "./../../../public/assets/imageLoader";
+import { useImages } from "../../assets/imageLoader";
 
 import Sidebar from "./Sidebar";
 import EmployeeList from "../../../public/assets/aboutUs";

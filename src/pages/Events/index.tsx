@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./../../index.css";
-import { useImages } from '../../../public/assets/imageLoader';
+import { useImages } from '../../assets/imageLoader';
 import eventSchema from '../../../public/assets/events/eventSchema';
 import EventsList from "../../../public/assets/events";
 

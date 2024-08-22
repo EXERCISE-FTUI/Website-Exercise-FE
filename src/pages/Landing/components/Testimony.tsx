@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import TestominySVG from '../../../../public/assets/landing/Testimony/OurAlumniTestimonials.svg';
-import { useImages } from '../../../../public/assets/imageLoader';
+import { useImages } from '../../../assets/imageLoader';
 import TestimonyList from '../../../../public/assets/landing/Testimony';
 
 export default function Testimony() {

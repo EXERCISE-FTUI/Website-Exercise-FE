@@ -1,5 +1,5 @@
 // index.ts
-import { Exticle } from "./exticleSchema";
+import { Exticle } from "../../../src/assets/exticle/exticleSchema";
 import json from "./exticle.resource.json";
 
 const ExticleList: Exticle[] = [];

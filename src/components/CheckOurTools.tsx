@@ -1,4 +1,4 @@
-import { useImages } from "../../public/assets/imageLoader";
+import { useImages } from "../assets/imageLoader";
 import ToolList from "../../public/assets/tool";
 
 export default function CheckOurTools() {
