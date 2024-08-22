@@ -12,3 +12,9 @@ services:
       NODE_ENV: production
     volumes:
       - ./dist:/app/dist
+    networks:
+      - bridge
+
+networks:
+  bridge:
+    driver: bridge
