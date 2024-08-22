@@ -1,5 +1,5 @@
 import EmployeeList from "../../../../../public/assets/aboutUs";
-import { useImages } from "../../../../../public/assets/imageLoader";
+import { useImages } from "../../../../assets/imageLoader";
 import garis from "../../../../../public/assets/aboutUs/images/dircodir.svg";
 
 function DirectorMap({ divisi, right }: { divisi: string; right: boolean }) {

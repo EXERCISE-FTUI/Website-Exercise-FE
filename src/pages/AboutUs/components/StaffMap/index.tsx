@@ -1,5 +1,5 @@
 import EmployeeList from "../../../../../public/assets/aboutUs";
-import { useImages } from "../../../../../public/assets/imageLoader";
+import { useImages } from "../../../../assets/imageLoader";
 
 function StaffMap({ divisi }: { divisi: string }) {
   const staffOf = EmployeeList.filter(

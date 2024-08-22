@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useImages } from '../../../public/assets/imageLoader';
+import { useImages } from '../../assets/imageLoader';
 import PastProjectList from "../../../public/assets/pastProject";
 import TokPed from "../../../public/assets/pastProject/images/tokopedia.png";
 import Flip from "../../../public/assets/pastProject/images/flip.png";
